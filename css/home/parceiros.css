@@ -12,7 +12,7 @@
   max-width: 1400px;
   display: grid;
   grid-template-columns: repeat(4,1fr);
-  margin: o auto;
+  margin: 0 auto;
 }
 
 .parceiros li{
@@ -36,6 +36,9 @@
 @media (max-width: 800px) {
   .parceiros {
     padding-bottom: 60px;
+  }
+  .parceiros li{
+    padding: 20px;
   }
   .parceiros h2{
     margin-bottom: 20px;
